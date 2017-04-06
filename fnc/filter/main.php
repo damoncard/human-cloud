@@ -1,8 +1,16 @@
 <?php
 	if (isset($_POST['type'])) {
-		echo "value's set";
+		$json_decode = file_get_contents('test.json');
+		$str = json_decode($json_decode, true);
+		$len = count($str);
+
+		for ($x = 0 ; $x < $len; $x++) {
+			if ($str[$x][$_POST['type']] != $_POST['value']) {
+				unset($str[$x]);
+			}
+		}
+
+		$json_encode = json_encode($str);
+		echo $json_encode;
 	}
-	/*$str = file_get_contents('test.json');
-	$json = json_decode($str, true);
-	echo '<pre>' . print_r($json, true) . '</pre>';*/
 ?>
