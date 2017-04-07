@@ -2,16 +2,24 @@
 
 ## Objective
 
-* To be the place to exchange man power and knowladge for SME and Startup 
+* To be the place to exchange man power and knowladge for SME and Startup.
 
 ## Scope
 
 * Browse employee
 
-   Let the company that lack of some specific employee to fine employee that they need
-   and hir them with specific time task and money
+	+ Filter
+		Filter only some certain employee.
+
+	+ Make contact
+		Get information of company that employee are up with.
 
 * Share employee
 
-   Let the company that have employee but lacking of job so they need thier employee
-   to find some job from outsorce to increse thier experience and also get the money from that job 
+	+ Fill information
+		Fill information of employee that you need to share with other company.
+
+
+## About
+	this website are develop for make SME and Startup to get more chance to survive in business world
+	by make them contract to each other by sharing employee or job.
