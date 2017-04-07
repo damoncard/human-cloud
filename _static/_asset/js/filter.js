@@ -8,26 +8,13 @@ $(document).ready(function() {
 			url: '/fnc/filter/main.php',
 			data: {'type': t, 'value': key},
 			success: function (data) {
-				alert(data)
+				$('#filer-table > tbody:last-child')
+				.append(`	<td>data[0][m_FirstName]</td>
+						<td>data[0][position]</td>
+						<td>data[0][company]</td>
+						<td><button class="button button2">Blue</button></td>`)
+				return false
 			}
 		})
 	})	
 })
-
-/*
-use for token to login
-	login.MinionDB.tokenTable.userId
-	login.MinionDB.tokenTable.tkPass
-	login.MinionDB.tokenTable.pkId
-	login.MinionDB.userTable.eId
-	login.MinionDB.emailTable.email
-user for browse minion 
-	browse.MinionDB.minionTable.mFirstName
-	browse.MinionDB.minionTable.mMidleName
-	browse.MinionDB.minionTable.mLastName
-	browse.MinionDB.minionTable.userId
-	browse.MinionDB.userTable.enName
-	browse.MinionDB.minionTable.pId
-	browse.MinionDB.possessionTable.possession
-	
-*/
