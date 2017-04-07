@@ -8,7 +8,7 @@
 	"phone" : "0987162345",
 	"email" : "fdafa@fdsfa.com",
 	"position" : "Database Adminstrator",
-	"province" : "Bangkok"
+	"province" : "Samut Prakan"
 },
 {
 	"m_Id" : "002",
@@ -20,7 +20,7 @@
 	"phone" : "0987162345",
 	"email" : "fdafa@fdsfa.com",
 	"position" : "Web Developer",
-	"province" : "Ayuttaya"
+	"province" : "Samut Prakan"
 },
 {
 	"m_Id" : "003",
@@ -56,7 +56,7 @@
 	"phone" : "098775431122",
 	"email" : "fdafa@fdsfa.com",
 	"position" : "Network Security",
-	"province" : "Bangkok"
+	"province" : "Samut Sakhon"
 },
 {
 	"m_Id" : "006",
@@ -128,7 +128,7 @@
 	"phone" : "0987162345",
 	"email" : "fdafa@fdsfa.com",
 	"position" : "Software Developer",
-	"province" : "Bangkok"
+	"province" : "Nakhon Pathom"
 },
 {
 	"m_Id" : "012",
@@ -151,8 +151,8 @@
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"email" : "fdafa@fdsfa.com",
-	"position" : "Hardware Engineer",
-	"province" : "Bangkok"
+	"position" : "Computer Hardware Engineer",
+	"province" : "Nakhon Pathom"
 },
 {
 	"m_Id" : "014",
@@ -176,7 +176,7 @@
 	"phone" : "092323443242",
 	"email" : "lojok@fdsfa.com",
 	"position" : "Software Developer",
-	"province" : "Bangkok"
+	"province" : "Nakhon Pathom"
 },
 {
 	"m_Id" : "016",
@@ -200,7 +200,7 @@
 	"phone" : "0987162345",
 	"email" : "fdafa@fdsfa.com",
 	"position" : "Data Analyst",
-	"province" : "Bangkok"
+	"province" : "Nonthaburi"
 },
 {
 	"m_Id" : "018",
@@ -235,8 +235,8 @@
 	"company" : "kijijuh",
 	"phone" : "0928328323",
 	"email" : "frgtgeg@fdsfa.com",
-	"position" : "Hardware Engineer",
-	"province" : "Bangkok"
+	"position" : "Computer Hardware Engineer",
+	"province" : "Pathum Thani"
 },
 {
 	"m_Id" : "021",
@@ -284,7 +284,7 @@
 	"phone" : "04933742423",
 	"email" : "ggr@ggggg.com",
 	"position" : "Mobile Developer",
-	"province" : "Bangkok"
+	"province" : "Pathum Thani"
 },
 {
 	"m_Id" : "025",
@@ -331,7 +331,7 @@
 	"company" : "gtgtgt",
 	"phone" : "54534543543",
 	"email" : "435345353@fdsfa.com",
-	"position" : "Hardware Engineer",
+	"position" : "Computer Hardware Engineer",
 	"province" : "Bangkok"
 },
 {
@@ -367,7 +367,7 @@
 	"company" : "aaaaaaa",
 	"phone" : "2222222222",
 	"email" : "frfrf@fdsfa.com",
-	"position" : "Hardware Engineer",
+	"position" : "Computer Hardware Engineer",
 	"province" : "Bangkok"
 },
 {
