@@ -27,3 +27,12 @@
 
 	this website are develop for make SME and Startup to get more chance to survive in business world
 	by make them contract to each other by sharing employee or job.
+
+## Technology
+	
+	+PHP
+	+HTML
+	+CSS
+	+JAVA Script
+	+Json
+	+Bootsrap Frame work
