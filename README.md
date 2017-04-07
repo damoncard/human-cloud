@@ -10,17 +10,17 @@
 
 	+ Filter
 
-   Filter only some certain employee.
+		Filter only some certain employee.
 
 	+ Make contact
 
-   Get information of company that employee are up with.
+		Get information of company that employee are up with.
 
 * Share employee
 
 	+ Fill information
 
-   Fill information of employee that you need to share with other company.
+		Fill information of employee that you need to share with other company.
 
 
 ## About
