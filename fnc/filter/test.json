@@ -3,11 +3,11 @@
 	"m_FirstName" : "Kravin",
 	"m_MidleName" : "Gru",
 	"m_LastName" : "Banana",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "db",
+	"position" : "Database Adminstrator",
 	"province" : "Bangkok"
 },
 {
@@ -15,11 +15,11 @@
 	"m_FirstName" : "Jaffe",
 	"m_MidleName" : "-",
 	"m_LastName" : "Banana",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "web",
+	"position" : "Web Developer",
 	"province" : "Ayuttaya"
 },
 {
@@ -27,11 +27,11 @@
 	"m_FirstName" : "Jason",
 	"m_MidleName" : "-",
 	"m_LastName" : "John",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "sw",
+	"position" : "Software Developer",
 	"province" : "Pattaya"
 },
 {
@@ -39,7 +39,7 @@
 	"m_FirstName" : "John",
 	"m_MidleName" : "-",
 	"m_LastName" : "Rees",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "BXXXX",
 	"phone" : "09876425252",
 	"Email" : "XXX@fdsfa.com",
@@ -51,11 +51,11 @@
 	"m_FirstName" : "Harrow",
 	"m_MidleName" : "-",
 	"m_LastName" : "Finnce",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "zzzzz",
 	"phone" : "098775431122",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "net",
+	"position" : "Network Security",
 	"province" : "Bangkok"
 },
 {
@@ -63,11 +63,11 @@
 	"m_FirstName" : "Root",
 	"m_MidleName" : "-",
 	"m_LastName" : "Grove",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "VVVDV",
 	"phone" : "0989898",
 	"Email" : "sjsjdu@fdsfa.com",
-	"position" : "net",
+	"position" : "Network Security",
 	"province" : "Bangkok"
 },
 {
@@ -75,11 +75,11 @@
 	"m_FirstName" : "Ethan",
 	"m_MidleName" : "-",
 	"m_LastName" : "Winter",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "idddjj",
 	"phone" : "93827728225",
 	"Email" : "bububub@fdsfa.com",
-	"position" : "desk",
+	"position" : "IT help desk",
 	"province" : "Bangkok"
 },
 {
@@ -87,11 +87,11 @@
 	"m_FirstName" : "Ethan",
 	"m_MidleName" : "S.",
 	"m_LastName" : "Hunt",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "AAqqwidjwi",
 	"phone" : "0098765578",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "web",
+	"position" : "Web Developer",
 	"province" : "Bangkok"
 },
 {
@@ -99,11 +99,11 @@
 	"m_FirstName" : "Mia",
 	"m_MidleName" : "-",
 	"m_LastName" : "Winter",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "loffidifd",
 	"phone" : "04420391313",
 	"Email" : "fkrikfgg@fdsfa.com",
-	"position" : "graphic",
+	"position" : "Graphic Designer",
 	"province" : "Bangkok"
 },
 {
@@ -111,11 +111,11 @@
 	"m_FirstName" : "Alex",
 	"m_MidleName" : "-",
 	"m_LastName" : "Griffin",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "data",
+	"position" : "Data Analyst",
 	"province" : "Bangkok"
 },
 {
@@ -123,11 +123,11 @@
 	"m_FirstName" : "Shoun",
 	"m_MidleName" : "-",
 	"m_LastName" : "Vee",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "sw",
+	"position" : "Software Developer",
 	"province" : "Bangkok"
 },
 {
@@ -135,11 +135,11 @@
 	"m_FirstName" : "Heart",
 	"m_MidleName" : "-",
 	"m_LastName" : "Rocker",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "db",
+	"position" : "Database Adminstrator",
 	"province" : "Bangkok"
 },
 {
@@ -147,7 +147,7 @@
 	"m_FirstName" : "Bay",
 	"m_MidleName" : "-",
 	"m_LastName" : "Riffer",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
@@ -159,11 +159,11 @@
 	"m_FirstName" : "Abc",
 	"m_MidleName" : "-",
 	"m_LastName" : "Def",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "mobile",
+	"position" : "Mobile Developer",
 	"province" : "Bangkok"
 },
 {
@@ -171,11 +171,11 @@
 	"m_FirstName" : "XCS",
 	"m_MidleName" : "SAW",
 	"m_LastName" : "DWE",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "NIDJji",
 	"phone" : "092323443242",
 	"Email" : "lojok@fdsfa.com",
-	"position" : "sw",
+	"position" : "Software Developer",
 	"province" : "Bangkok"
 },
 {
@@ -183,11 +183,11 @@
 	"m_FirstName" : "DSA",
 	"m_MidleName" : "-",
 	"m_LastName" : "KIJ",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "MMMMM",
 	"phone" : "98232",
 	"Email" : "hrhrhr@fdsfa.com",
-	"position" : "db",
+	"position" : "Database Adminstrator",
 	"province" : "Bangkok"
 },
 {
@@ -195,11 +195,11 @@
 	"m_FirstName" : "dsfsdfs",
 	"m_MidleName" : "-",
 	"m_LastName" : "sdfsdsfd",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "data",
+	"position" : "Data Analyst",
 	"province" : "Bangkok"
 },
 {
@@ -207,11 +207,11 @@
 	"m_FirstName" : "okoko",
 	"m_MidleName" : "-",
 	"m_LastName" : "lkkllkll",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "graphic",
+	"position" : "Graphic Designer",
 	"province" : "Bangkok"
 },
 {
@@ -219,11 +219,11 @@
 	"m_FirstName" : "Bibbib",
 	"m_MidleName" : "-",
 	"m_LastName" : "Def",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "mobile",
+	"position" : "Mobile Developer",
 	"province" : "Bangkok"
 },
 {
@@ -231,7 +231,7 @@
 	"m_FirstName" : "gigig",
 	"m_MidleName" : "-",
 	"m_LastName" : "tgtgtg",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "kijijuh",
 	"phone" : "0928328323",
 	"Email" : "frgtgeg@fdsfa.com",
@@ -243,11 +243,11 @@
 	"m_FirstName" : "BYY",
 	"m_MidleName" : "-",
 	"m_LastName" : "DFFE",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "LKIJI",
 	"phone" : "34543533405345",
 	"Email" : "gjidgjdig@fdgfdgd.com",
-	"position" : "net",
+	"position" : "Network Security",
 	"province" : "Bangkok"
 },
 {
@@ -255,11 +255,11 @@
 	"m_FirstName" : "gjitgtug",
 	"m_MidleName" : "-",
 	"m_LastName" : "fggdfgdsfgs",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "gogiggig",
 	"phone" : "54324234294322",
 	"Email" : "gtgtgt@fdsfa.com",
-	"position" : "desk",
+	"position" : "IT help desk",
 	"province" : "Bangkok"
 },
 {
@@ -267,11 +267,11 @@
 	"m_FirstName" : "bibtb",
 	"m_MidleName" : "-",
 	"m_LastName" : "cvvvdvf",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "bigoogbg",
 	"phone" : "0974254211",
 	"Email" : "boigbfb@fdsfa.com",
-	"position" : "sw",
+	"position" : "Software Developer",
 	"province" : "Bangkok"
 },
 {
@@ -279,11 +279,11 @@
 	"m_FirstName" : "vfivfvofvf",
 	"m_MidleName" : "-",
 	"m_LastName" : "dedsds",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "okrgorkgr",
 	"phone" : "04933742423",
 	"Email" : "ggr@ggggg.com",
-	"position" : "mobile",
+	"position" : "Mobile Developer",
 	"province" : "Bangkok"
 },
 {
@@ -291,11 +291,11 @@
 	"m_FirstName" : "XXXXX",
 	"m_MidleName" : "-",
 	"m_LastName" : "ZZZZZ",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "SSSSSS",
 	"phone" : "9999999999",
 	"Email" : "jhhjhj@fdsfa.com",
-	"position" : "mobile",
+	"position" : "Mobile Developer",
 	"province" : "Bangkok"
 },
 {
@@ -303,11 +303,11 @@
 	"m_FirstName" : "VVVV",
 	"m_MidleName" : "-",
 	"m_LastName" : "NNNNNN",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "FFFFF",
 	"phone" : "955885855",
 	"Email" : "bghtht@tttt.com",
-	"position" : "web",
+	"position" : "Web Developer",
 	"province" : "Bangkok"
 },
 {
@@ -315,11 +315,11 @@
 	"m_FirstName" : "ccfcfc",
 	"m_MidleName" : "-",
 	"m_LastName" : "rrrrrrrr",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "gyhyhy",
 	"phone" : "09549445",
 	"Email" : "oyhiyhyo@fdsfa.com",
-	"position" : "sw",
+	"position" : "Software Developer",
 	"province" : "Bangkok"
 },
 {
@@ -327,7 +327,7 @@
 	"m_FirstName" : "gtgtgt",
 	"m_MidleName" : "-",
 	"m_LastName" : "Def",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "gtgtgt",
 	"phone" : "54534543543",
 	"Email" : "435345353@fdsfa.com",
@@ -339,11 +339,11 @@
 	"m_FirstName" : "gtgt",
 	"m_MidleName" : "-",
 	"m_LastName" : "ssss",
-	"m_Sex : "male",
+	"m_Sex" : "Male",
 	"company" : "gtgtg",
 	"phone" : "548537334",
 	"Email" : "bbbbb@bbbbb.com",
-	"position" : "mobile",
+	"position" : "Mobile Developer",
 	"province" : "Bangkok"
 },
 {
@@ -351,11 +351,11 @@
 	"m_FirstName" : "ooooo",
 	"m_MidleName" : "-",
 	"m_LastName" : "00000",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "999999",
 	"phone" : "4444444444",
 	"Email" : "88888@888888.com",
-	"position" : "data",
+	"position" : "Data Analyst",
 	"province" : "Bangkok"
 },
 {
@@ -363,7 +363,7 @@
 	"m_FirstName" : "wwwwqw",
 	"m_MidleName" : "-",
 	"m_LastName" : "qqqqqq",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "aaaaaaa",
 	"phone" : "2222222222",
 	"Email" : "frfrf@fdsfa.com",
@@ -375,11 +375,11 @@
 	"m_FirstName" : "cccccc",
 	"m_MidleName" : "-",
 	"m_LastName" : "Deccccccf",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "ffffff",
 	"phone" : "09554462345",
 	"Email" : "fdafffffa@fdsfa.com",
-	"position" : "data",
+	"position" : "Data Analyst",
 	"province" : "Bangkok"
 },
 {
@@ -387,11 +387,11 @@
 	"m_FirstName" : "Abbbbbc",
 	"m_MidleName" : "-",
 	"m_LastName" : "Def",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "sw",
+	"position" : "Software Developer",
 	"province" : "Bangkok"
 },
 {
@@ -399,11 +399,11 @@
 	"m_FirstName" : "Abc",
 	"m_MidleName" : "-",
 	"m_LastName" : "Def",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "desk",
+	"position" : "IT help desk",
 	"province" : "Bangkok"
 },
 {
@@ -411,11 +411,11 @@
 	"m_FirstName" : "Abc",
 	"m_MidleName" : "-",
 	"m_LastName" : "Def",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "mobile",
+	"position" : "Mobile Developer",
 	"province" : "Bangkok"
 },
 {
@@ -423,10 +423,10 @@
 	"m_FirstName" : "Abc",
 	"m_MidleName" : "-",
 	"m_LastName" : "Def",
-	"m_Sex : "female",
+	"m_Sex" : "Female",
 	"company" : "Bluezebra",
 	"phone" : "0987162345",
 	"Email" : "fdafa@fdsfa.com",
-	"position" : "net",
+	"position" : "Network Security",
 	"province" : "Bangkok"
 }]
