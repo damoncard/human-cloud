@@ -14,7 +14,7 @@ $(document).ready(function() {
 					<td>` + data[i]['m_FirstName'] + `</td>
 					<td>` + data[i]['position'] + `</td>
 					<td>` + data[i]['company'] + `</td>
-					<td><button class="button button2">Blue</button></td>
+					<td><button class="btn btn-info">more detail</button></td>
 				</tr>`)
 			}
 		}
@@ -38,7 +38,7 @@ $(document).ready(function() {
 						<td>` + data[i]['m_FirstName'] + `</td>
 						<td>` + data[i]['position'] + `</td>
 						<td>` + data[i]['company'] + `</td>
-						<td><button class="button button2">Blue</button></td>
+						<td><button class="btn btn-info">more detail</button></td>
 					</tr>`)
 				}
 			}
