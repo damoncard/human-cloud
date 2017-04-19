@@ -1,3 +1,4 @@
+@@ -1,47 +0,0 @@
 $(document).ready(function() {
 	$('#filter-table').DataTable()
 
@@ -45,3 +46,4 @@ $(document).ready(function() {
 		})
 	})
 })
+\ No newline at end of file

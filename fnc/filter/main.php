@@ -25,6 +25,13 @@
 					continue;
 				}
 			}
+
+			if ($_POST['company'] != 'none') {
+				if ($str[$x]['company'] != $_POST['company']) {
+					unset($str[$x]);
+					continue;
+				}
+			}
 		}
 
 		$str = array_values($str);
