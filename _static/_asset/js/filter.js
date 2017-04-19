@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	$('#filter-table').DataTable()
 
 	$.ajax({
 		type: 'POST',
@@ -9,7 +8,7 @@ $(document).ready(function() {
 		success: function (data) {
 			$('#filter-table tr').slice(1).empty()
 			for (var i = 0; i < data.length; i++) { 
-				$('#filter-table  > tbody:last-child').append(`		
+				$('#filter-table').append(`		
 				<tr>
 					<td>` + data[i]['m_FirstName'] + `</td>
 					<td>` + data[i]['position'] + `</td>
@@ -33,7 +32,7 @@ $(document).ready(function() {
 			success: function (data) {
 				$('#filter-table tr').slice(1).empty()
 				for (var i = 0; i < data.length; i++) { 
-					$('#filter-table  > tbody:last-child').append(`		
+					$('#filter-table ').append(`		
 					<tr>
 						<td>` + data[i]['m_FirstName'] + `</td>
 						<td>` + data[i]['position'] + `</td>
