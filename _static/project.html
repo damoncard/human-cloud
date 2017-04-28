@@ -735,69 +735,6 @@
 
 
     <!---->
-    <!--browse-bar-chart-->
-    <script>
-        var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-        var randomScalingFactor = function() {
-            return (Math.random() > 0.5 ? 1.0 : 1.0) * Math.round(Math.random() * 100);
-        };
-        var randomColorFactor = function() {
-            return Math.round(Math.random() * 255);
-        };
-        var randomColor = function() {
-            return 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',.7)';
-        };
-
-        var barChartData = {
-            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-            datasets: [{
-                label: '2014',
-                backgroundColor: "rgba(220,220,220,1)",
-                data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
-            }, {
-                hidden: true,
-                label: '2015',
-                backgroundColor: "rgba(151,187,205,1)",
-                data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
-            }, {
-                label: '2016',
-                backgroundColor: "rgba(151,187,205,1)",
-                data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
-            }]
-
-        };
-
-        window.onload = function() {
-            var ctx = document.getElementById("project-bar-chart-area").getContext("2d");
-            window.myBar = new Chart(ctx, {
-                type: 'bar',
-                data: barChartData,
-                options: {
-                    // Elements options apply to all of the options unless overridden in a dataset
-                    // In this case, we are setting the border of each bar to be 2px wide and green
-                    elements: {
-                        rectangle: {
-                            
-                            borderSkipped: 'bottom'
-                        }
-                    },
-                    responsive: true,
-                    legend: {
-                        position: 'top',
-                    },
-                    title: {
-                        display: true,
-                       
-                    }
-                }
-            });
-
-        };
-
-     
-    </script>
-    <!--/browse-bar-chart-->
     <!--contact ends-->
     <script src="_asset/_perm/jquery.min.js"></script>
     <script src="_asset/_perm/jquery.easing.min.js"></script>
