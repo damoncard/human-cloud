@@ -21,6 +21,10 @@
     <link rel="stylesheet" type="text/css" href="_asset/_perm/animate.css">
     <link rel="stylesheet" type="text/css" href="_asset/_perm/style.css">
     <link rel="stylesheet" type="text/css" href="_asset/css/flip.css">
+
+    <!--chart-->
+    <script src="_asset/js/Chart.bundle.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- =======================================================
         Theme Name: Bethany
         Theme URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
@@ -246,13 +250,19 @@
                                     </div>
                                 </div>
                                 <div class="back ">
-                                    <div class="thumbnail"><br>
-                                        <img src="_asset/img/profile.png" alt="" class="img-responsive">
-                                            <div class="caption">
-                                                <h5 style="font-weight: bold;">NAME:</h5>
-                                                <h5 style="font-weight: bold;">POSITION:</h5>
-                                                <h5 style="font-weight: bold;">COMPANY:</h5>
-                                            </div>
+                                    <div class="thumbnail"><br>                                        
+                                        <div class="caption">
+                                                <div id="canvas-holder" >
+                                                    <canvas id="browse-skill-pie-chart-area" width="300" height="300" >
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12" align="center">                                                   
+                                                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">          
+                                                            <button type="button" class="btn btn-submit">Interested</button>
+                                                        </a>                                                     
+                                                    </div>
+                                                </div>
+                                           </div>
                                     </div>                    
                                 </div>
                             </div>
@@ -530,6 +540,55 @@
     <script src="_asset/_perm/wow.js"></script>
     <script src="_asset/_perm/custom.js"></script>
     <script src="_asset/_perm/contactform/contactform.js"></script>
+
+    <!--browse-pie-chart-->
+    <script>
+    var randomScalingFactor = function() {
+        return Math.round(Math.random() * 100);
+    };
+    var randomColorFactor = function() {
+        return Math.round(Math.random() * 255);
+    };
+    var randomColor = function(opacity) {
+        return 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',' + (opacity || '.3') + ')';
+    };
+
+    var config = {
+        type: 'pie',
+        data: {
+            datasets: [{
+                data: [
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+              
+                ],
+                backgroundColor: [
+                    "#F7464A",
+                    "#46BFBD",
+                    "#FDB45C",
+                    
+                ],
+            }],
+            labels: [
+                "Database",
+                "Web Developer",
+                "Graphic Design",
+                
+            ]
+        },
+        options: {
+            responsive: true
+        }
+    };
+
+    window.onload = function() {
+        var ctx = document.getElementById("browse-skill-pie-chart-area").getContext("2d");
+        window.myPie = new Chart(ctx, config);
+    };
+
+   
+    </script>
     
   </body>
 </html>
