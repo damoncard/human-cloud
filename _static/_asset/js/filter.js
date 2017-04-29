@@ -8,24 +8,41 @@ $(document).ready(function() {
 			$('#profile').empty()
 			for (var i = 0; i < data.length; i++) { 
 				$('#profile').append(`
-				<div class="col-md-4 wow fadeInRight delay-02s">
-					<div class="block" id="card"> 
-						<div class="thumbnail front"><br>
-							<img src="_asset/img/img1.png" alt="" class="img-responsive">
-							<div class="caption">
-								<h5 style="font-weight: bold;">NAME: 
-									<h6>` + data[i]['m_FirstName']  + `</h6>
-								</h5>
-								<h5 style="font-weight: bold;">POSITION:
-									<h6>` +  data[i]['position']  + `</h6>
-								</h5>
-								<h5 style="font-weight: bold;">COMPANY:
-									<h6>` +  data[i]['company']  + `</h6>
-								</h5>
+				<div class="col-md-4">
+					<div class="flip-container wow fadeInRight delay-02s" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<div class="thumbnail"><br>
+									<img src="_asset/img/profile.png" alt="" class="img-responsive">
+									<div class="caption">
+										<h5 style="font-weight: bold;">NAME: 
+											<h5 id="m_name" style="font-weight: bold;">` + data[i]['m_FirstName'] + " " + data[i]['m_LastName'] + `</h5>
+										</h5>
+										<h5 style="font-weight: bold;">POSITION: 
+											<h5 id="m_pos" style="font-weight: bold;">` + data[i]['position'] + `</h5>
+										</h5>
+										<h5 style="font-weight: bold;">COMPANY: 
+											<h5 id="m_com" style="font-weight: bold;">` + data[i]['company'] + `</h5>
+										</h5>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="thumbnail back"><br>
-							<img src="_asset/img/img1.png" alt="" class="img-responsive">
+							<div class="back ">
+								<div class="thumbnail"><br>
+									<img src="_asset/img/profile.png" alt="" class="img-responsive">
+									<div class="caption">
+										<h5 style="font-weight: bold;">GENDER: 
+											<h5 id="m_gen" style="font-weight: bold;">` + data[i]['gender'] + `</h5>
+										</h5>
+										<h5 style="font-weight: bold;">PROVINCE: 
+											<h5 id="m_pro" style="font-weight: bold;">` + data[i]['province'] + `</h5>
+										</h5>
+										<h5 style="font-weight: bold;">EMAIL: 
+											<h5 id="m_email" style="font-weight: bold;">` + data[i]['email'] + `</h5>
+										</h5>										
+									</div>
+								</div>					
+							</div>
 						</div>
 					</div>
 				</div>`)
@@ -33,44 +50,45 @@ $(document).ready(function() {
 		}
 	})
 
-	// $(function($) {
-	// 	$("#card").flip()
-	// });
+	var filter = function() {
+		var pos = $('#position').val()
+		var pro = $('#province').val()
+		var gen = $('input[name=gender]:checked').val()
+		var com = $('#company').val().toLowerCase()
+		$('#profile > div').each(function() {
+			if (pos != 'none') {
+				if (pos != $(this).find('#m_pos').text()) {
+					$(this).hide()
+					return true
+				}	
+			}
 
-	$('select').change(function(){
-		var key = $(this).val()
-		if ($(this).attr('id') == 'position') {
-			$('#profile > div').each(function(){
-	 			var str = $(this).find('h6:nth-child(4)').text()
-	 			var sub = key
-	 			if (str != sub){
-	 				$(this).hide()
-	 			} else {
-	 				$(this).show()
-	 			}
-	 		})
-		} else {
-			/*$('#profile > div').each(function(){
-	 			var str = $(this).find('h6:nth-child(4)').text()
-	 			var sub = key
-	 			if (str != sub){
-	 				$(this).hide()
-	 			} else {
-	 				$(this).show()
-	 			}
-	 		})*/	
-		}
-	})
+			if (pro != 'none') {
+				if (pro != $(this).find('#m_pro').text()) {
+					$(this).hide()
+					return true
+				}	
+			}
 
-	$('#company').keyup(function() {
- 		$('#profile > div').each(function(){
- 			var str = $(this).find('h6:last-child').text().toLowerCase()
- 			var sub = $('#company').val().toLowerCase()
- 			if (str.indexOf(sub)){
- 				$(this).hide()
- 			} else {
- 				$(this).show()
- 			}
- 		})
- 	})
+			if (gen != 'none') {
+				if (gen != $(this).find('#m_gen').text()) {
+					$(this).hide()
+					return true
+				}	
+			}
+
+			if (com != '') {
+				var temp = $(this).find('#m_com').text().toLowerCase()
+				if (temp.indexOf(com) != 0) {
+					$(this).hide()
+					return true
+				}	
+			}
+			$(this).show()
+		})
+	}
+
+	$('select').change(filter)
+	$('input[name=gender]:radio').change(filter)
+	$('#company').keyup(filter)
 })
